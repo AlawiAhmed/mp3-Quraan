@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   }
+
+
+
+
+
+  html
+    {
+        fontsize:62.5%;
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+        overflow: hidden; 
+    }
+header {
+  background-color: rgb(104, 90, 90);
+  color: white;
+  padding: 20px;;;
+  margin:auto   ;
+  display: fixed;
+  position: relative;
+  position:-webkit-sticky ;
+  position:sticky;;
+
+
+}
+.logo{
+  font-size:35px;
+  display: inline;
+
+}
+.menu{
+ color: white;
+ font-size:20px;
+ float: right;
+ position: relative;
+ display: inline-block; 
+
+}
+.m1{
+  display: inline;
+  padding:5px;
+  float: left;
+}
+.section1{
+   padding-left:55px;
+  margin:10px;
+  width: 100%;
+  display: inline-block;
+  background-color: rgb(63, 37, 37);
+
+}
+
+.nav-bar{
+  width:250px;
+
+  height: 250px;
+  background-color: rgb(179, 162, 162);
+  border-radius:   12px 12px 12px 12px ;
+  padding: 1.5px;
+  margin :7px;
+  display: inline-block;
+  
+
+}
+
+
+.photo     {
+  width:100%;
+  height: 180px;
+  background-color: rgb(107, 90, 90);
+  padding:5px;
+  border-radius:   12px 12px 12px 12px ;
+  position: relative;}
+  .photo .fa-solid fa-play    {
+    position:fixed;
+     
+  
+}
+.photo img     {
+   width:90%;
+   height: 170px;
+   position:absolute;
+  border-radius:   12px 12px 12px 12px ;
+
+  
+}
+
+ .like{
+   background-color: rgba(64, 140, 211, 0.8);
+ }
+
+
